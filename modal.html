@@ -1,0 +1,59 @@
+<!-- Modal.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+    <style>
+      body { font-family: Arial; padding: 10px; }
+      label { display: block; margin-bottom: 5px; }
+      .rang { font-weight: bold; margin-left: 5px; color: #555; }
+      button { margin-top: 10px; }
+    </style>
+  </head>
+  <body>
+    <label><input type="checkbox" class="choix" value="couleur"> Couleur <span class="rang"></span></label>
+    <label><input type="checkbox" class="choix" value="taille"> Taille <span class="rang"></span></label>
+    <label><input type="checkbox" class="choix" value="matiere"> Matière <span class="rang"></span></label>
+    <label><input type="checkbox" class="choix" value="gout"> Goût <span class="rang"></span></label>
+    <label><input type="checkbox" class="choix" value="parfum"> Parfum <span class="rang"></span></label>
+    <label><input type="checkbox" class="choix" value="bijoux"> Type de bijoux <span class="rang"></span></label>
+    <!-- <label><input type="checkbox" class="choix" value="option"> Option <span class="rang"></span></label> -->
+
+    <button onclick="envoyer()">Valider</button>
+
+    <script>
+      const checkboxes = document.querySelectorAll(".choix");
+      let ordre = [];
+
+      // Décocher et réinitialiser au chargement
+      checkboxes.forEach(cb => cb.checked = false);
+      ordre = [];
+      mettreAJourRangs();
+
+      checkboxes.forEach(cb => {
+        cb.addEventListener("change", () => {
+          if (cb.checked) {
+            ordre.push(cb.value);
+          } else {
+            ordre = ordre.filter(val => val !== cb.value);
+          }
+          mettreAJourRangs();
+        });
+      });
+
+      function mettreAJourRangs() {
+        checkboxes.forEach(cb => {
+          const span = cb.parentNode.querySelector(".rang");
+          const index = ordre.indexOf(cb.value);
+          span.textContent = index >= 0 ? ` (#${index + 1})` : "";
+        });
+      }
+
+      function envoyer() {
+        google.script.run
+          .withSuccessHandler(() => google.script.host.close())
+          .processSelections(ordre);
+      }
+    </script>
+  </body>
+</html>
