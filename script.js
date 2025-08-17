@@ -113,7 +113,7 @@ function processSelections(decli_list) {
   ss.getRange(2, 2, copy_data.length, 1).setValues(copy_data);
 }
 
-///////////////////////// FIN du script analyse decli ////////////////////////////
+///////////////////////// Script pour remplir les listes ////////////////////////////
 
 function get_distinct_value() {
   let ss = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
