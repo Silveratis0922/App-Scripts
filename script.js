@@ -2,6 +2,7 @@ function onOpen() {
   SpreadsheetApp.getUi()
     .createMenu("Tristan script")
     .addItem("Analyse des declis", "ShowOptionsForm")
+    .addItem("Remplir liste (active colonne)", "get_distinct_value")
     .addToUi();
 }
 
@@ -110,4 +111,20 @@ function processSelections(decli_list) {
     }
   }
   ss.getRange(2, 2, copy_data.length, 1).setValues(copy_data);
+}
+
+///////////////////////// FIN du script analyse decli ////////////////////////////
+
+function get_distinct_value() {
+  let ss = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+  let col = ss.getActiveCell().getColumn();
+  let data = ss.getRange(2, col, ss.getLastRow() - 1, 1).getValues().flat();
+
+  let unique = [...new Set(data.filter(String).map(v => v.trim().toLowerCase()))];
+
+  let formated = unique.map(v => `"${v}"`).join(", ");
+
+  ss.getRange(1, 26).setValue(formated);
+
+  SpreadsheetApp.getUi().alert("Liste générée en Z1, prête à copier !");
 }
