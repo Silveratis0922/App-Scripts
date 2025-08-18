@@ -23,7 +23,10 @@ function CopyColumnProduct(ss) {
 function get_color_list() {
   let list = ["vert","jaune", "bleu", "turquoise", "rouge", "rouge et noir", "vert", "noir", "bleu teal", "rose", "noir", "pistache", "vert menthe", "rouge", "bleu persan", "vert herbe", "corail",
              "blue", "white", "blue floral reversible", "butter yellow stripes", "floral green reversible", "floral pink reversible", "floral sage reversible", "green stripes palm trees  reversible",
-              "seashell reversible", "pink stripes", "red stripes", "yellow", "honeydew", "mint/orange", "sage green", "floral print", "airy blue", "dots", "buttercream floral"];
+              "seashell reversible", "pink stripes", "red stripes", "yellow", "honeydew", "mint/orange", "sage green", "floral print", "airy blue", "dots", "buttercream floral",
+             "ekru", "beige", "terracotta", "vert sapin", "sauge", "bleu roi", "pistache", "coffee", "orange", "jaune", "lila", "baby pink", "mint", "peach", "ekru + pistache",
+              "ekru + terrracotta", "ekru + beige", "ekru + sauge", "ekru + vert sapin", "ekru + coffee", "ekru + lila", "ekru + baby blue", "ekru + baby pink", "ekru + mint",
+              "ekru + peach", "peach + pink", "pink + lila", "mint + blue", "beige + terracotta", "pistache + sapin", "noir", "matcha", "baby blue", "fuschia", "ekru + orange", "ekru + terracotta", "vert", "blanc", "terrracotta", "ekru + coffee + terracotta"];
   return (list);
 }
 
