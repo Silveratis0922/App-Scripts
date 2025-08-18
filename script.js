@@ -31,7 +31,7 @@ function get_color_list() {
 }
 
 function get_size_list() {
-  let list = ["200 ml", "47", "2 oz"];
+  let list = ["200 ml", "47", "2 oz", "12cm", "22cm", "19cm", "20cm", "27cm", "17.5cm", "23cm", "taille s (9cm)", "taille m (12cm)", "taille l (20cm)"];
   return (list);
 }
 
