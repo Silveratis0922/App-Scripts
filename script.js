@@ -7,7 +7,7 @@ function onOpen() {
 }
 
 function ShowOptionsForm() {
-  const html = HtmlService.createHtmlOutputFromFile("test")
+  const html = HtmlService.createHtmlOutputFromFile("modal")
     .setWidth(300)
     .setHeight(300);
   SpreadsheetApp.getUi().showModalDialog(html, "Options d'analyse");
