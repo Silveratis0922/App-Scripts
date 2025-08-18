@@ -21,7 +21,7 @@ function CopyColumnProduct(ss) {
 }
 
 function get_color_list() {
-  let list = ["vert","jaune", "bleu", "turquoise", "rouge", "rouge et noir", "vert", "noir"];
+  let list = ["vert","jaune", "bleu", "turquoise", "rouge", "rouge et noir", "vert", "noir", "bleu teal", "rose", "noir", "pistache", "vert menthe", "rouge", "bleu persan", "vert herbe", "corail"];
   return (list);
 }
 
