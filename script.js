@@ -38,7 +38,7 @@ function get_material_list() {
 }
 
 function get_taste_list() {
-  let list = ["chocolat", "vanille", "pistache"];
+  let list = ["vanille", "pistache", "brownie cacahuètes", "choco noisette", "cacao noisette-praliné", "cookie dough", "cacao-noisette", "cacao-cacahuète", "praliné", "cacahuète", "chocolat", "miel", "beurre de cacahuète & cacao", "cacao noisette", "cacao"];
   return (list);
 }
 
