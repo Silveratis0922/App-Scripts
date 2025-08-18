@@ -21,7 +21,9 @@ function CopyColumnProduct(ss) {
 }
 
 function get_color_list() {
-  let list = ["vert","jaune", "bleu", "turquoise", "rouge", "rouge et noir", "vert", "noir", "bleu teal", "rose", "noir", "pistache", "vert menthe", "rouge", "bleu persan", "vert herbe", "corail"];
+  let list = ["vert","jaune", "bleu", "turquoise", "rouge", "rouge et noir", "vert", "noir", "bleu teal", "rose", "noir", "pistache", "vert menthe", "rouge", "bleu persan", "vert herbe", "corail",
+             "blue", "white", "blue floral reversible", "butter yellow stripes", "floral green reversible", "floral pink reversible", "floral sage reversible", "green stripes palm trees  reversible",
+              "seashell reversible", "pink stripes", "red stripes", "yellow", "honeydew", "mint/orange", "sage green", "floral print", "airy blue", "dots", "buttercream floral"];
   return (list);
 }
 
