@@ -36,7 +36,7 @@ function get_color_list() {
 }
 
 function get_size_list() {
-  let list = ["200 ml", "47", "2 oz", "12cm", "22cm", "19cm", "20cm", "27cm", "17.5cm", "23cm", "taille s (9cm)", "taille m (12cm)", "taille l (20cm)"];
+  let list = ["200 ml", "47", "2 oz", "12cm", "22cm", "19cm", "20cm", "27cm", "17.5cm", "23cm", "taille s (9cm)", "taille m (12cm)", "taille l (20cm)", "50ml", "15ml", "100ml", "200ml", "100g"];
   return (list);
 }
 
@@ -51,7 +51,7 @@ function get_taste_list() {
 }
 
 function get_fragrance_list() {
-  let list = ["lavande", "poivre", "camomille"];
+  let list = ["lavande", "poivre", "camomille", "amande", "herbe zen", "rose", "matcha", "vanille", "fleur d'oranger", "fleur de cerisier", "thé blanc", "tonka", "cerisier"];
   return (list);
 }
 
