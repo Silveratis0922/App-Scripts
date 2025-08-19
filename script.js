@@ -26,7 +26,12 @@ function get_color_list() {
               "seashell reversible", "pink stripes", "red stripes", "yellow", "honeydew", "mint/orange", "sage green", "floral print", "airy blue", "dots", "buttercream floral",
              "ekru", "beige", "terracotta", "vert sapin", "sauge", "bleu roi", "pistache", "coffee", "orange", "jaune", "lila", "baby pink", "mint", "peach", "ekru + pistache",
               "ekru + terrracotta", "ekru + beige", "ekru + sauge", "ekru + vert sapin", "ekru + coffee", "ekru + lila", "ekru + baby blue", "ekru + baby pink", "ekru + mint",
-              "ekru + peach", "peach + pink", "pink + lila", "mint + blue", "beige + terracotta", "pistache + sapin", "noir", "matcha", "baby blue", "fuschia", "ekru + orange", "ekru + terracotta", "vert", "blanc", "terrracotta", "ekru + coffee + terracotta"];
+              "ekru + peach", "peach + pink", "pink + lila", "mint + blue", "beige + terracotta", "pistache + sapin", "noir", "matcha", "baby blue", "fuschia", "ekru + orange",
+              "ekru + terracotta", "vert", "blanc", "terrracotta", "ekru + coffee + terracotta", "candy pink", "black", "leopard", "coral", "black leopard", "fiery red", "cream/black",
+              "pine green", "papaya", "apricot", "matcha", "warm nude", "electric lilac", "cherry/coral", "cherry", "warm nude/candy pink", "pink", "cream", "powder pink/fiery red",
+              "light yellow", "peach", "turquoise/peach", "powder pink", "coral/cherry", "turquoise/coral", "warm nude/coral/turquoise", "powder pink/light yellow", "light blue/fiery red",
+              "candy pink/electric blue", "mocha/candy pink", "turquoise", "kelly green", "lavender", "mauve", "peach/turquoise", "nude", "warm nude/lilac", "neon pink", "off white", "navy blue",
+              "pale pink/burgundy", "apricot/neon pink", "electric blue", "dusty rose", "sky blue", "turquoise blue", "cobalt blue", "olive", "faded blue", "grey"];
   return (list);
 }
 
