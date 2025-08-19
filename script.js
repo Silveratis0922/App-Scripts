@@ -51,7 +51,8 @@ function get_taste_list() {
 }
 
 function get_fragrance_list() {
-  let list = ["lavande", "poivre", "camomille", "amande", "herbe zen", "rose", "matcha", "vanille", "fleur d'oranger", "fleur de cerisier", "thé blanc", "tonka", "cerisier"];
+  let list = ["lavande", "poivre", "camomille", "amande", "herbe zen", "rose", "matcha", "vanille", "fleur d'oranger", "fleur de cerisier", "thé blanc", "tonka", "bois de oud", "cèdre", "figuier",
+              "fleur de coton", "fleur de jasmin", "freesia", "gingembre", "grenade", "iris", "litchi", "magnolia", "musc", "osmanthus", "pistache", "pomelo", "santal", "thé matcha", "tiaré", "vétiver", "ylang", "yuzu", "cerisier"];
   return (list);
 }
 
