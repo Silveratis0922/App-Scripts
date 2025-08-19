@@ -31,7 +31,14 @@ function get_color_list() {
               "pine green", "papaya", "apricot", "matcha", "warm nude", "electric lilac", "cherry/coral", "cherry", "warm nude/candy pink", "pink", "cream", "powder pink/fiery red",
               "light yellow", "peach", "turquoise/peach", "powder pink", "coral/cherry", "turquoise/coral", "warm nude/coral/turquoise", "powder pink/light yellow", "light blue/fiery red",
               "candy pink/electric blue", "mocha/candy pink", "turquoise", "kelly green", "lavender", "mauve", "peach/turquoise", "nude", "warm nude/lilac", "neon pink", "off white", "navy blue",
-              "pale pink/burgundy", "apricot/neon pink", "electric blue", "dusty rose", "sky blue", "turquoise blue", "cobalt blue", "olive", "faded blue", "grey"];
+              "pale pink/burgundy", "apricot/neon pink", "electric blue", "dusty rose", "sky blue", "turquoise blue", "cobalt blue", "olive", "faded blue", "grey", "beige", "marron", "noires marbrées",
+              "rouge", "vertes", "blanches nacrées", "bleu océan", "bleu pastel", "bleues givrées", "bordeaux", "fuschias", "fuschias nacrées", "ivoires", "jaune pastel", "lilas", "marrons", "mega pack java",
+              "mocha", "noires", "nougat glacé", "olive", "oranges", "pack alicante", "pack alméria", "pack automne", "pack bilbao", "pack carmen", "pack castille", "pack galice", "pack lorca", "pack mérida",
+              "pack minorque", "pack palma", "pack pastel", "pack pinto", "pack seville", "pack vigo", "rose pâle", "roses", "taupe", "terracotta", "vert d'eau", "vert pastel", "vert sapin", "vieux rose", "violet",
+              "bleu ciel", "corail", "emeraude", "mauve", "orange fluo", "pack oria", "pack santa", "pack tossa", "rose pale", "dorées", "ecaille", "kaki", "léopard", "rose", "tacheté", "ivoire/vert d'eau", "violet/vert d'eau",
+              "argentées", "blanches", "bleu roi", "jaune/pêche", "mermaid", "mint", "pack", "pack alma", "pack glitter", "pack lucia", "pack luna", "pack maria", "pack rosa", "pailleté bronze", "pailleté noir", "pailleté rose",
+              "pailleté vert", "pailleté violet", "pivoine", "tachetées", "vanille/rose", "vert/rose", "vert/violet", "vert/bleu", "bleu", "orange", "vert", "gris", "fuschia", "blanc", "doré", "noir", "coeur au choix", "ecru", "multi",
+              "bronze", "terrazzo", "prune"];
   return (list);
 }
 
