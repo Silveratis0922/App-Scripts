@@ -32,13 +32,15 @@ function get_color_list() {
               "light yellow", "peach", "turquoise/peach", "powder pink", "coral/cherry", "turquoise/coral", "warm nude/coral/turquoise", "powder pink/light yellow", "light blue/fiery red",
               "candy pink/electric blue", "mocha/candy pink", "turquoise", "kelly green", "lavender", "mauve", "peach/turquoise", "nude", "warm nude/lilac", "neon pink", "off white", "navy blue",
               "pale pink/burgundy", "apricot/neon pink", "electric blue", "dusty rose", "sky blue", "turquoise blue", "cobalt blue", "olive", "faded blue", "grey", "beige", "marron", "noires marbrées",
-              "rouge", "vertes", "blanches nacrées", "bleu océan", "bleu pastel", "bleues givrées", "bordeaux", "fuschias", "fuschias nacrées", "ivoires", "jaune pastel", "lilas", "marrons", "mega pack java",
-              "mocha", "noires", "nougat glacé", "olive", "oranges", "pack alicante", "pack alméria", "pack automne", "pack bilbao", "pack carmen", "pack castille", "pack galice", "pack lorca", "pack mérida",
-              "pack minorque", "pack palma", "pack pastel", "pack pinto", "pack seville", "pack vigo", "rose pâle", "roses", "taupe", "terracotta", "vert d'eau", "vert pastel", "vert sapin", "vieux rose", "violet",
-              "bleu ciel", "corail", "emeraude", "mauve", "orange fluo", "pack oria", "pack santa", "pack tossa", "rose pale", "dorées", "ecaille", "kaki", "léopard", "rose", "tacheté", "ivoire/vert d'eau", "violet/vert d'eau",
-              "argentées", "blanches", "bleu roi", "jaune/pêche", "mermaid", "mint", "pack", "pack alma", "pack glitter", "pack lucia", "pack luna", "pack maria", "pack rosa", "pailleté bronze", "pailleté noir", "pailleté rose",
-              "pailleté vert", "pailleté violet", "pivoine", "tachetées", "vanille/rose", "vert/rose", "vert/violet", "vert/bleu", "bleu", "orange", "vert", "gris", "fuschia", "blanc", "doré", "noir", "coeur au choix", "ecru", "multi",
-              "bronze", "terrazzo", "prune"];
+              "rouge", "vertes", "blanches nacrées", "bleu océan", "bleu pastel", "bleues givrées", "bordeaux", "fuschias", "fuschias nacrées", "ivoires", "jaune pastel", "lilas", "marrons",
+              "mocha", "noires", "nougat glacé", "olive", "oranges", "rose pâle", "roses", "taupe", "terracotta", "vert d'eau", "vert pastel", "vert sapin", "vieux rose", "violet",
+              "bleu ciel", "corail", "emeraude", "mauve", "orange fluo", "rose pale", "dorées", "ecaille", "kaki", "léopard", "rose", "tacheté", "ivoire/vert d'eau", "violet/vert d'eau", "argentées", "blanches", "bleu roi", "jaune/pêche",
+              "mermaid", "mint", "pailleté bronze", "pailleté noir", "pailleté rose", "pailleté vert", "pailleté violet", "pivoine", "tachetées", "vanille/rose", "vert/rose", "vert/violet", "vert/bleu", "bleu", "orange", "vert", "gris",
+              "fuschia", "blanc", "doré", "noir", "coeur au choix", "ecru", "multi", "bronze", "terrazzo", "prune", "beige et blanc nacré", "blanc granité et noir onyx", "blanc ivoire", "blanc neige", "blanc, orange, bleu et vert", "bleu",
+              "bleu clair / rouge / jaune", "bleu et blanc nacré", "bleu foncé", "bleu marine", "bleu nuit", "dégradé beige et marron", "dégradé bleu", "dégradé bleu gris kaki", "dégradé gris vert bouteille et beige", "dégradé marron volcanique",
+              "dégradé rose poudre et beige", "gris anthracite", "gris bleuté", "gris orage", "gris lune", "jaune ocre", "kaki et bleu", "noir", "vert", "vert olive", "bois et noir", "bois vernis", "gris métal", "inox et noir mat", "inox mat et bois",
+              "inox mat et noir mat", "noir mat", "inox", "inox mat", "noir brillant", "cuivré brillant", "doré mat", "gris clair", "blanc crème", "chocolat", "jaune moutarde", "orange", "rose pâle", "vert de gris", "vert pâle", "vert sapin", "beige",
+              "gris", "marron", "blanc crème et vert de gris", "bleu nuit et gris anthracite","jaune moutarde et vert sapin", "orange et chocolat", "rose pâle et vert pâle", "beige et bois vernis"];
   return (list);
 }
 
