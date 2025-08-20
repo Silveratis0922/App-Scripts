@@ -42,7 +42,15 @@ function get_color_list() {
               "inox mat et noir mat", "noir mat", "inox", "inox mat", "noir brillant", "cuivré brillant", "doré mat", "gris clair", "blanc crème", "chocolat", "jaune moutarde", "orange", "rose pâle", "vert de gris", "vert pâle", "vert sapin", "beige",
               "gris", "marron", "blanc crème et vert de gris", "bleu nuit et gris anthracite","jaune moutarde et vert sapin", "orange et chocolat", "rose pâle et vert pâle", "beige et bois vernis", "ecru", "brigerton", "denim", "fushia", "glitter",
               "lilas", "vichy", "écaille", "rose", "rouge", "bleu klein", "bleu ciel", "fuchsia", "crème", "marron", "beige", "argile", "vert", "tomette", "olive", "argent", "orange", "jeans", "léopard", "noisette", "ciel", "noir", "noire", "seersucker",
-              "ocre", "gris", "cérémonie", "bridgerton", "fleurs"];
+              "ocre", "gris", "cérémonie", "bridgerton", "fleurs", "faded", "neon", "seaside", "cherry", "rose", "aqua", "berry", "tan", "palm", "lavender haze", "periwinkle", "sunshine", "hot pink", "caribbean checks", "coastal cowgirl", "azalea", "army",
+              "charcoal", "algae", "earth tone", "caramel", "wavy checks navy", "wavy checks pine", "navy", "seafoam", "papaya", "emerald", "shave ice", "birch", "faded grey", "gold", "coconut milk", "youth", "aloha sunset neon", "calico crab charcoal",
+              "calico crab faded army", "calico crab khaki", "calico crab salmon", "color block mango", "color block sand", "fleurs sunshine", "hazy daze bubblegum", "hazy daze swirl", "hazy daze turquoise", "palmitos seafoam", "sea abyss earth tone",
+              "sea ripple tie dye", "sun daze charcoal", "sun daze yellow", "sunshine space honey", "sunshine space tahiti", "surfing cowboy bonanza blue", "surfing cowboy cactus", "triple scoop berry", "triple scoop blue moon", "triple scoop bubblegum",
+              "triple scoop butter pecan", "triple scoop pistachio", "triple scoop velvet", "wavy checks avocado", "wavy checks banana", "wavy checks cocoa", "wavy flowers navy blue", "faded mustard yellow", "banana", "pine", "grilled cheese", "monday checkers",
+              "sky blue", "raspberry", "mint chip", "pua party", "tropics patch", "adult", "floral", "black & white checkerboard", "checker moss", "black & white checker - strand", "dogtown mint", "turquoise venice", "olive", "sea glass", "clay", "mustard",
+              "go with the flow desert", "go with the flow peach", "plankton green", "sun bleached", "patrick pink", "hibiscus", "retro daydream chartreuse", "retro daydream surfy 60s", "smiley khaki", "beach fossils", "raph red", "sewage grey", "youth black zipper hoodie",
+              "cowabunga break up", "mutant checker turtle green", "static mayhem", "cloud", "almond", "khaki", "pesce", "pink and rust-orange", "sea moss", "daisy", "tahiti", "sand", "bonanza blue", "cactus", "coral", "fuchsia", "avocado", "cocoa", "lavender", "kiwi", "tan camo",
+              "panama", "navy blue", "retro daydream floral", "seaside gingham", "autumn", "blush", "bubblegum pink", "mint", "seaweed"];
   return (list);
 }
 
