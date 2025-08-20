@@ -50,7 +50,9 @@ function get_color_list() {
               "sky blue", "raspberry", "mint chip", "pua party", "tropics patch", "adult", "floral", "black & white checkerboard", "checker moss", "black & white checker - strand", "dogtown mint", "turquoise venice", "olive", "sea glass", "clay", "mustard",
               "go with the flow desert", "go with the flow peach", "plankton green", "sun bleached", "patrick pink", "hibiscus", "retro daydream chartreuse", "retro daydream surfy 60s", "smiley khaki", "beach fossils", "raph red", "sewage grey", "youth black zipper hoodie",
               "cowabunga break up", "mutant checker turtle green", "static mayhem", "cloud", "almond", "khaki", "pesce", "pink and rust-orange", "sea moss", "daisy", "tahiti", "sand", "bonanza blue", "cactus", "coral", "fuchsia", "avocado", "cocoa", "lavender", "kiwi", "tan camo",
-              "panama", "navy blue", "retro daydream floral", "seaside gingham", "autumn", "blush", "bubblegum pink", "mint", "seaweed"];
+              "panama", "navy blue", "retro daydream floral", "seaside gingham", "autumn", "blush", "bubblegum pink", "mint", "seaweed", "soft sage", "oatmeal", "ivory", "cream", "dark brown", "soft pink", "blue", "vintage cream", "taupe", "emerald green",
+              "olive", "black", "navy", "soft blue", "light wash", "soft grey", "pink", "mineral tan", "denim", "tan", "vintage sage", "vintage teal", "soft gry", "white", "stone", "soft peach", "medium wash", "light green", "beige", "sage", "green",
+              "lavender", "gold", "teal", "olive green", "deep blue", "dark olive", "dark burgundy", "charcoal"];
   return (list);
 }
 
