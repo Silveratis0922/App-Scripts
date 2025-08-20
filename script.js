@@ -55,7 +55,12 @@ function get_color_list() {
 }
 
 function get_size_list() {
-  let list = ["200 ml", "47", "2 oz", "12cm", "22cm", "19cm", "20cm", "27cm", "17.5cm", "23cm", "taille s (9cm)", "taille m (12cm)", "taille l (20cm)", "50ml", "15ml", "100ml", "200ml", "100g"];
+  let list = ["200 ml", "47", "2 oz", "12cm", "22cm", "19cm", "20cm", "27cm", "17.5cm", "23cm", "taille s (9cm)", "taille m (12cm)", "taille l (20cm)", "50ml", "15ml", "100ml", "200ml", "100g", "small - 2/3", "medium - 4/5", "toddler", "youth", "18/24", "1/3", "2/4", "3/5",
+              "4/6", "5/7", "16", "6/8", "7/9", "14", "adult", "8/10", "extra small 2/3 years", "small 4/5 years", "medium 5/6 years", "extra large 10/11 years", "adult small - 12 years", "extra large - 8/9", "12", "extra small", "small", "medium", "large", "extra large",
+              "36", "38", "40", "30", "34", "32", "extra small - 1yr", "small - 2yr", "medium - 5yr", "large - 6yr", "xs - 1 yr", "sm - 2 yr", "md - 5 yr", "5t", "24", "26", "28", "extra small - 2/3", "extra large -adult small", "4t", "6t", "9y", "22", "extra large - adult small",
+              "xxl", "1t", "2t", "3t", "10y", "7y", "8y", "youth extra small - 2/3 years", "youth small - 4/5 years", "youth medium - 5/6 years", "youth large - 7/8 years", "youth extra large - 10/11", "adult small", "adult medium", "adult large", "adult extra large", "small - 4/5",
+              "medium - 6/7", "large - 8/9", "extra large - 10/11", "medium - 5/6", "large - 7/8", "one size (adult + big kids)", "xx large", "large - 6/7", "9t", "small -2/3", "xxl - 12/14", "xxxl - 16/18", "extra small -2/3 years", "small - 4/5 years", "medium - 5/6 years",
+              "large - 7/8 years", "extra large - 10/11 years", "xxxl - 16/18 - adult small", "adult small - 11/12 years", "adult medium - 13/14 years", "xxl - 10/11", "big kid", "extra small - 18 months"];
   return (list);
 }
 
