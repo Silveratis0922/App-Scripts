@@ -40,7 +40,9 @@ function get_color_list() {
               "bleu clair / rouge / jaune", "bleu et blanc nacré", "bleu foncé", "bleu marine", "bleu nuit", "dégradé beige et marron", "dégradé bleu", "dégradé bleu gris kaki", "dégradé gris vert bouteille et beige", "dégradé marron volcanique",
               "dégradé rose poudre et beige", "gris anthracite", "gris bleuté", "gris orage", "gris lune", "jaune ocre", "kaki et bleu", "noir", "vert", "vert olive", "bois et noir", "bois vernis", "gris métal", "inox et noir mat", "inox mat et bois",
               "inox mat et noir mat", "noir mat", "inox", "inox mat", "noir brillant", "cuivré brillant", "doré mat", "gris clair", "blanc crème", "chocolat", "jaune moutarde", "orange", "rose pâle", "vert de gris", "vert pâle", "vert sapin", "beige",
-              "gris", "marron", "blanc crème et vert de gris", "bleu nuit et gris anthracite","jaune moutarde et vert sapin", "orange et chocolat", "rose pâle et vert pâle", "beige et bois vernis"];
+              "gris", "marron", "blanc crème et vert de gris", "bleu nuit et gris anthracite","jaune moutarde et vert sapin", "orange et chocolat", "rose pâle et vert pâle", "beige et bois vernis", "ecru", "brigerton", "denim", "fushia", "glitter",
+              "lilas", "vichy", "écaille", "rose", "rouge", "bleu klein", "bleu ciel", "fuchsia", "crème", "marron", "beige", "argile", "vert", "tomette", "olive", "argent", "orange", "jeans", "léopard", "noisette", "ciel", "noir", "noire", "seersucker",
+              "ocre", "gris", "cérémonie", "bridgerton", "fleurs"];
   return (list);
 }
 
