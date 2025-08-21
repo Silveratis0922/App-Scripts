@@ -52,7 +52,7 @@ function get_color_list() {
               "cowabunga break up", "mutant checker turtle green", "static mayhem", "cloud", "almond", "khaki", "pesce", "pink and rust-orange", "sea moss", "daisy", "tahiti", "sand", "bonanza blue", "cactus", "coral", "fuchsia", "avocado", "cocoa", "lavender", "kiwi", "tan camo",
               "panama", "navy blue", "retro daydream floral", "seaside gingham", "autumn", "blush", "bubblegum pink", "mint", "seaweed", "soft sage", "oatmeal", "ivory", "cream", "dark brown", "soft pink", "blue", "vintage cream", "taupe", "emerald green",
               "olive", "black", "navy", "soft blue", "light wash", "soft grey", "pink", "mineral tan", "denim", "tan", "vintage sage", "vintage teal", "soft gry", "white", "stone", "soft peach", "medium wash", "light green", "beige", "sage", "green",
-              "lavender", "gold", "teal", "olive green", "deep blue", "dark olive", "dark burgundy", "charcoal", "brown", "dark brown-navy", "ecru-beige", "taupe-pink", "camel", "mahogany", "vanilla", "brick", "lime", "black stripes", "silver", "peanuts", "natural", "beige-black", "copper metal"];
+              "lavender", "gold", "teal", "olive green", "deep blue", "dark olive", "dark burgundy", "charcoal", "brown", "dark brown-navy", "ecru-beige", "taupe-pink", "camel", "mahogany", "vanilla", "brick", "lime", "black stripes", "silver", "peanuts", "natural", "beige-black", "red", "copper metal"];
   return (list);
 }
 
