@@ -62,7 +62,7 @@ function get_size_list() {
               "36", "38", "40", "30", "34", "32", "extra small - 1yr", "small - 2yr", "medium - 5yr", "large - 6yr", "xs - 1 yr", "sm - 2 yr", "md - 5 yr", "5t", "24", "26", "28", "extra small - 2/3", "extra large -adult small", "4t", "6t", "9y", "22", "extra large - adult small",
               "xxl", "1t", "2t", "3t", "10y", "7y", "8y", "youth extra small - 2/3 years", "youth small - 4/5 years", "youth medium - 5/6 years", "youth large - 7/8 years", "youth extra large - 10/11", "adult small", "adult medium", "adult large", "adult extra large", "small - 4/5",
               "medium - 6/7", "large - 8/9", "extra large - 10/11", "medium - 5/6", "large - 7/8", "one size (adult + big kids)", "xx large", "large - 6/7", "9t", "small -2/3", "xxl - 12/14", "xxxl - 16/18", "extra small -2/3 years", "small - 4/5 years", "medium - 5/6 years",
-              "large - 7/8 years", "extra large - 10/11 years", "xxxl - 16/18 - adult small", "adult small - 11/12 years", "adult medium - 13/14 years", "xxl - 10/11", "big kid", "extra small - 18 months"];
+              "large - 7/8 years", "extra large - 10/11 years", "xxxl - 16/18 - adult small", "adult small - 11/12 years", "adult medium - 13/14 years", "xxl - 10/11", "big kid", "extra small - 18 months", "32", "34", "36", "38", "40", "1", "2", "3", "4", "5", "42"];
   return (list);
 }
 
