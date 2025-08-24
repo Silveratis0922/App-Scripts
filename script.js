@@ -1,6 +1,8 @@
 function onOpen() {
   SpreadsheetApp.getUi()
     .createMenu("Tristan script")
+    .addItem("Analyse préliminaire", "Prompt_early_checking")
+    .addItem("Script doublon", "Prompt_check_double")
     .addItem("Analyse des declis", "ShowOptionsForm")
     .addItem("Remplir liste (active colonne)", "get_distinct_value")
     .addToUi();
@@ -18,6 +20,30 @@ function CopyColumnProduct(ss) {
 
   ss.insertColumnsAfter(1, 1);
   ss.getRange(1,2, data.length, 1).setValues(data);
+}
+
+function Prompt_check_double() {
+  let ui = SpreadsheetApp.getUi();
+  let input = ui.prompt("Nombre de colonnes à vérifier", "Colonne min : 1", ui.ButtonSet.OK_CANCEL);
+  
+  if (input.getSelectedButton() !== ui.Button.OK) return;
+  
+  let nbr_columns = parseInt(input.getResponseText().trim(), 10);
+  if (isNaN(nbr_columns) || nbr_columns < 1) {
+    ui.alert("Veuillez entrer un nombre valide supérieur à 0.");
+    return;
+  }
+  checking_double(nbr_columns);
+}
+
+function Prompt_early_checking() {
+  let nbr_ss = SpreadsheetApp.getActiveSpreadsheet().getNumSheets();
+  let ui = SpreadsheetApp.getUi();
+  if (nbr_ss > 1) {
+    let input = ui.prompt("Êtes-vous sûr d'être sur la bonne feuille ?", "Cliquez sur 'Ok' si vous êtes sur la bonne feuille, sinon annulez.", ui.ButtonSet.OK_CANCEL);
+    if (input.getSelectedButton() !== ui.Button.OK) return;
+  }
+  early_checking();
 }
 
 function get_color_list() {
@@ -165,3 +191,64 @@ function get_distinct_value() {
 
   SpreadsheetApp.getUi().alert("Liste générée en Z1, prête à copier !");
 }
+
+////////////////////// Script doublon ////////////////////////////////////////
+
+function checking_double(nbr_columns) {
+  let ss = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+  let range = ss.getRange(1, 1, ss.getLastRow(), nbr_columns);
+  let values = range.getValues();
+  let dic = {};
+  
+  range.setBackground(null);
+
+  for (let i = 1; i < ss.getLastRow(); i++) {
+    var key_part = [];
+      for (let col = 0; col < nbr_columns; col++) {
+        key_part.push(values[i][col].toString().trim().replace(/\s+/g, ' ').toLowerCase());
+      }
+    var key = key_part.join('|');
+    if (!dic[key]) dic[key] = [];
+    dic[key].push(i + 1);
+  }
+
+  for (var key in dic) {
+    if (dic[key].length > 1) {
+      dic[key].forEach(function(rowIndex){
+        ss.getRange(rowIndex, 1, 1, nbr_columns).setBackground('#ffff00');
+      });
+    }
+  }
+  // let ui = SpreadsheetApp.getUi();
+  // ui.alert("Nombre de colonnes selectionnees : " + values);
+}
+
+////////////////////// Script preliminaire ///////////////////////////////////
+
+function early_checking() {
+  let ss = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+  let range = ss.getDataRange();
+  range.setValues(range.getValues()); //Copie en valeur.
+
+  let values = range.getValues();
+  for (var row = 0; row < values.length; row++) {
+    if(ss.isRowHiddenByUser(row + 1)) {
+        ss.showRows(row + 1, 1);
+        ss.getRange(row + 1, 1, 1, ss.getLastColumn()).setBackground('#88ffa5'); // Ligne cachees.
+      }
+    for (var col = 0; col < values[row].length; col++) {
+      if (row === 0) {
+        if (ss.isColumnHiddenByUser(col + 1)) {
+          ss.showColumns(col + 1, 1);
+          ss.getRange(1, col + 1, ss.getLastRow(), 1).setBackground('#88ffa5'); // Colonnes cachees.
+        }
+      }
+      if (typeof values[row][col] === "string") {
+        values[row][col] = values[row][col].trim().replace(/\s+/g, ' '); //Trim + regex multiple espace.
+      }
+    }
+  }
+  range.setValues(values);
+}
+
+
