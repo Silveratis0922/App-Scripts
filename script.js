@@ -79,7 +79,7 @@ function get_color_list() {
               "panama", "navy blue", "retro daydream floral", "seaside gingham", "autumn", "blush", "bubblegum pink", "mint", "seaweed", "soft sage", "oatmeal", "ivory", "cream", "dark brown", "soft pink", "blue", "vintage cream", "taupe", "emerald green",
               "olive", "black", "navy", "soft blue", "light wash", "soft grey", "pink", "mineral tan", "denim", "tan", "vintage sage", "vintage teal", "soft gry", "white", "stone", "soft peach", "medium wash", "light green", "beige", "sage", "green",
               "lavender", "gold", "teal", "olive green", "deep blue", "dark olive", "dark burgundy", "charcoal", "brown", "dark brown-navy", "chocolat", "crème", "noir", "vin", "ecru-beige", "taupe-pink", "camel", "mahogany", "vanilla", "brick", "lime",
-              "black stripes", "silver", "peanuts", "natural", "beige-black", "red", "copper metal", "marino", "orange", "rose", "vert", "azul", "beige", "bicolor azul", "bicolor jaune", "bicolor rose", "millésime", "bordeaux"];
+              "black stripes", "silver", "peanuts", "natural", "beige-black", "red", "copper metal", "marino", "orange", "rose", "vert", "azul", "beige", "bicolor azul", "bicolor jaune", "bicolor rose", "millésime", "bordeaux", "argentée", "argenté", "doré", "dorées", "dorée"];
   return (list);
 }
 
